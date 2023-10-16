@@ -1,0 +1,35 @@
+*{
+    margin :opx;
+    padding :0px;
+}
+#maindiv{
+    display :flex;
+    justify-content :center;
+    align-items :center;
+    
+}
+form{
+    width :500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left:30px;
+}
+input{
+    width :250px;
+    height :30px;
+    padding-left:5px;
+}
+sup{
+    color:red;
+}
+.gender{
+    width:15px;
+}
+#country{
+    height: 30px;
+}
+#btn{
+    width :100px;
+    height :40px;
+    margin-right :50px;
+    margin-top :20px;
+}

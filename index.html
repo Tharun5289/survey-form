@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="maindiv">
+    <form>
+        <p>First Name<sup>*</sup></p>
+        <input type="text" placeholder="" id="fname">
+        <p>Last Name<sup>*</sup></p>
+        <input type="text" placeholder="" id="lname">
+        <p>DOB<sup>*</sup></p>
+        <input type="date" name="dob" id="dob">
+        <p>Gender<sup>*</sup></p>
+        <input type="radio" name="gender" id="male" class="gender"> Male
+        <input type="radio" name="gender" id="female" class="gender"> Female
+        <p>Email<sup>*</sup></p>
+        <input type="text" placeholder="" id="email">
+        <p>Phone Number<sup>*</sup></p>
+        <input type="text" placeholder="" id="phoneNumber">
+        <p>Professiom<sup>*</sup></p>
+        <input type="text" placeholder="" id="profession">
+        <p>Country<sup>*</sup></p>
+        <select id="country">
+            <option>Country</option>
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="canda">Canada</option>
+            <option value="Australia">Australia</option>
+        </select> 
+        <p></p>
+        <button id="btn" onclick="data()">submit</button>
+        <button type="reset" id="btn">Reset</button>
+    </form>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
